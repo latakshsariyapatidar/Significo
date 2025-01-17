@@ -1,0 +1,54 @@
+*::selection{
+  background-color: salmon;
+}
+
+.videoContainer{
+  clip-path: circle(var(--clip) at 50% 50%);
+}
+
+body[theme="black"] {
+  background-color: black;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body[theme="black"] .section {
+  color: white;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+body[theme="cyan"] {
+  background-color: rgb(129, 250, 250);
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+body[theme="cyan"] .section {
+  color: rgb(38, 71, 71);
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+body[theme="salmon"] {
+  background-color: salmon;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+body[theme="salmon"] .section {
+  color: rgb(99, 52, 47);
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+body[theme="white"] {
+  background-color: white;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+}
+
+body[theme="white"] .section {
+  color: black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+
+}
